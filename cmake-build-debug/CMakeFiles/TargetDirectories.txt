@@ -1,3 +1,0 @@
-D:/CPP_projects/WSU/OOP_Assignment_1.2/cmake-build-debug/CMakeFiles/OOP_Assignment_1_2.dir
-D:/CPP_projects/WSU/OOP_Assignment_1.2/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/CPP_projects/WSU/OOP_Assignment_1.2/cmake-build-debug/CMakeFiles/rebuild_cache.dir

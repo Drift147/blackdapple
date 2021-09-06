@@ -6,23 +6,25 @@
 using namespace std;
 class Board
 {
-     char** boardData = new boardData*[rows];
+    char* boardData;
     int boardSize;
 
-    for
+    int SetElement(int x, int y, char value)
+    {
+        boardData[boardSize * y + x] = value;
+    }
 
 
 public:
     Board(int boardSize) // custom constructor - (maybe need vector)
     {
-        this->boardSize = boardSize; //todo
-        boardData = new ;
+        this->boardSize = boardSize;
+        boardData = new char[boardSize * 2];
     }
 
     Board()  // default constructor (all dwarves are 10 inches)
     {
         boardSize = 10;
-        boardData = new vector(boardSize, vector<char>(boardSize, ' '));
     }
 
     void displayBoard()

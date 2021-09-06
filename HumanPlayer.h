@@ -16,6 +16,13 @@ class HumanPlayer : public Player {
 
 public:
 
+
+    Board()  // default constructor (all dwarves are 10 inches)
+    {
+        boardSize = 10;
+    }
+
+
     HumanPlayer(char ps) :Player(ps) {}
     ~HumanPlayer() {}
 
